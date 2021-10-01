@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: ChampagneLimousines;
+}
+
+@font-face {
+  font-family: ChampagneLimousines;
+  src: url("ChampagneLimousines.ttf");
+}
+@font-face {
+  font-family: ChampagneLimousines;
+  font-weight: bold;
+  src: url("ChampagneLimousinesBold.ttf");
+}
+
+header,
+nav {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.main-menu {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solic rgba(255, 255, 255, 0.3);
+  padding: 0 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.logotipo {
+  width: 115px;
+}
+
+.menu-link-desktop,
+.menu-link-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links-menu {
+  padding: 0 2rem;
+  line-height: 70px;
+  min-height: 50px;
+  min-width: 50px;
+  height: 120px;
+  width: 120px;
+  display: block;
+}
+
+.links-menu:hover:not(.cta-btn) {
+  box-shadow: 0 -5px 0 0 white inset;
+}
+
+.links-menu:hover {
+  transform: scale(0.95);
+}
+
+.fondo-servicios {
+  background-image: url(./resources/Servicios/paginanuestrosservicios.jpg);
+  padding-top: 15%;
+  /* height: 90%;
+  width: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor-servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios-misfit {
+  /* position: absolute; */
+  /* top: 70%;
+  left: 50%; */
+  z-index: 1;
+  padding: 5rem;
+  margin-top: 50%;
+}
+
+.test {
+  height: 2px;
+}

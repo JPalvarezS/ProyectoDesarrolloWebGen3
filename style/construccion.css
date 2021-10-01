@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: ChampagneLimousines;
+}
+
+@font-face {
+  font-family: ChampagneLimousines;
+  src: url("ChampagneLimousines.ttf");
+}
+@font-face {
+  font-family: ChampagneLimousines;
+  font-weight: bold;
+  src: url("ChampagneLimousinesBold.ttf");
+}

@@ -1,6 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: ChampagneLimousines;
+}
+
+@font-face {
+  font-family: ChampagneLimousines;
+  src: url("ChampagneLimousines.ttf");
+}
+@font-face {
+  font-family: ChampagneLimousines;
+  font-weight: bold;
+  src: url("ChampagneLimousinesBold.ttf");
 }
 
 header,
@@ -32,7 +43,7 @@ ul {
   position: fixed;
   top: 0;
   left: 0;
-  /* z-index: 999; */
+  z-index: 999;
 }
 
 .logotipo {
@@ -62,6 +73,33 @@ ul {
 
 .links-menu:hover {
   transform: scale(0.95);
+}
+
+.redes {
+  height: 10rem;
+  width: 10rem;
+}
+
+.footer-info {
+  float: right;
+  padding: 5rem;
+  margin-right: 12rem;
+}
+
+.texto-h1 {
+  text-decoration: wavy 2px underline pink;
+  margin-left: 12%;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.texto-h2 {
+  text-decoration: wavy 2px underline pink;
+}
+
+.mapa {
+  padding: 1rem;
+  margin-left: 5%;
 }
 
 /* Slideshow container */
@@ -146,32 +184,4 @@ ul {
   to {
     opacity: 1;
   }
-}
-
-.redes {
-  height: 10rem;
-  width: 10rem;
-}
-
-.whatsapp {
-  height: 12rem;
-  width: 12rem;
-}
-
-.footer-info {
-  float: right;
-  padding: 5rem;
-  text-decoration: wavy 2px underline pink;
-}
-
-.texto-h1 {
-  text-decoration: wavy 2px underline pink;
-  margin-left: 12%;
-  padding: 1rem;
-  margin-top: 2rem;
-}
-
-.mapa {
-  padding: 1rem;
-  margin-left: 5%;
 }
